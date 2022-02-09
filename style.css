@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+  }
+  
+  .container {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .bar {
+    background-color: fuchsia;
+    width: 100%;
+    height: calc((100% - 40px) / 5);
+    margin-bottom: 10px;
+  }
+  
+  .bar.eua {
+    width: 91.76%;
+  }
+  
+  .bar.china {
+    width: 67.44%;
+  }
+  
+  .bar.japao {
+    width: 20.4%;
+  }
+  
+  .bar.alemanha {
+    width: 16.92%;
+  }
+  
+  .bar.reino-unido {
+    width: 12.44%;
+  }
